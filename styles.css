@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-.body{
-    
-}
 
 .wrap{
     font-family: Montserrat;
@@ -25,7 +22,7 @@ h1{
 }
 
 p{
-    font-size: 14px;
+    font-size: 12px;
     color: hsl(158, 36%, 37%);
 }
 
@@ -37,7 +34,7 @@ h4{
     font-weight: normal;
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-size: 14px;
+    font-size: 12px;
     color: hsl(158, 36%, 37%);
 }
 
@@ -101,7 +98,7 @@ h4{
 .smallprice{
     position: relative;
     top: 10px;
-    font-size: 12px;
+    font-size: 11px;
     text-decoration: line-through;
 }
 
