@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    
+}
+
+.wrap{
+    font-family: Montserrat;
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+h1{
+    font-size: 27px;
+    font-family: Fraunces;
+    color: hsl(212, 21%, 14%);
+}
+
+p{
+    font-size: 14px;
+    color: hsl(158, 36%, 37%);
+}
+
+h1,p{
+    padding-top: 15px;
+}
+
+h4{
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 14px;
+    color: hsl(158, 36%, 37%);
+}
+
+.image{
+    width: 270px;
+    height: 370px;
+    position: relative;
+    top: 2px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.container{
+    height: 370px;
+    width: 270px;
+    padding: 20px;
+    background-color: white;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cart{
+    color: white;
+    position: relative;
+    top: 35px;
+    border-radius: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: hsl(158, 36%, 37%);
+    font-size: 13px;
+}
+
+.cart:hover{
+    cursor: pointer;
+    background-color: hsl(212, 21%, 14%);
+}
+
+.price{
+    position: relative;
+    top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.boldprice{
+    font-size: 28px;
+    font-family: Fraunces;
+    color: hsl(158, 36%, 37%);
+}
+
+.smallprice{
+    position: relative;
+    top: 10px;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+.icon{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+ }
+    
+ .attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
